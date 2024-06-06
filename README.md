@@ -26,6 +26,7 @@ This repository contains a sample configuration file (`.env.sample`):
 # Reward cycles to fetch rewards for, as ["start", "end"], or ["cycle"].
 # Limitations:
 #   - start <= end;
+#   - Empty list;
 REWARD_CYCLES=["84", "85"]
 
 # List of addresses to fetch rewards for, as ["address", "address", ...].
